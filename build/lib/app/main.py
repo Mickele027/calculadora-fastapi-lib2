@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from app.models import OperationRequest, OperationResponse
-from calculadora_lib import *
+from calculadora_lib import add, subtract, multiply, divide
 
 app = FastAPI(
     title="FastAPI Calculator",
